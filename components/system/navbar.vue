@@ -6,7 +6,7 @@
   <div class="navbar-system">
     <div class="wrap">
       <div class="navbar-system__logo">
-        <nuxt-link to="/">БУБЕК PLANER</nuxt-link>
+        <nuxt-link to="/">NUXT STARTER</nuxt-link>
       </div>
       <div class="navbar-system__buttons">
       </div>

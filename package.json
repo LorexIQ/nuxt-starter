@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-starter",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify/vue": "^4.1.1",
     "@nuxt/devtools": "latest",
     "nuxt": "^3.8.2",
     "sass": "^1.69.5",

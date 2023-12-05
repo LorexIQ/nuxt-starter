@@ -3,6 +3,5 @@
 
 <template>
   <div class="index-page">
-    <mechanic-redactor/>
   </div>
 </template>
