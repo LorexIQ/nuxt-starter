@@ -1,5 +1,5 @@
 docker compose down
 
-docker rmi catrinix_deploy
+docker rmi nuxt_starter
 
 docker compose up -d
