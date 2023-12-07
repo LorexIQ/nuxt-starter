@@ -17,5 +17,10 @@ export default defineNuxtConfig({
         '~/assets/styles/main.scss'
     ],
 
-    devtools: { enabled: true }
+    devtools: { enabled: true },
+
+    extends: [
+        'packages/auth',
+        'packages/ui',
+    ]
 })

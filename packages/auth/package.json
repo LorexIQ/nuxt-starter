@@ -1,0 +1,8 @@
+{
+  "name": "nuxt-starter-auth",
+  "version": "1.0.0",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt-local-auth": "^1.2.5"
+  }
+}
