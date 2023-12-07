@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import {computed, ref} from "#imports";
 import type {InputAutocomplete, InputType} from "../types";
 import type {IconsType} from "~/app/icons";
 
