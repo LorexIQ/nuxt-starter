@@ -5,6 +5,8 @@ const env = {
 };
 
 export default defineNuxtConfig({
+    ssr: false,
+
     runtimeConfig: {
         public: {
             appAuthPackageVersion: packageJSON.version,
@@ -15,13 +17,13 @@ export default defineNuxtConfig({
     localAuth: {
         origin: env.serverOrigin,
         pages: {
-            protectAllPages: true,
-            serverIsDown: undefined
+            auth: '/signin',
+            protectAllPages: true
         },
         endpoints: {
-            signIn: { path: 'Auth/user', method: 'POST' },
-            signUp: { path: 'Auth/user/create', method: 'POST' },
-            getMe: { path: 'User', method: 'GET' }
+            signIn: { path: 'auth', method: 'POST' },
+            signUp: { path: 'auth/reg', method: 'POST' },
+            getMe: { path: 'users/me', method: 'GET' }
         }
     },
 

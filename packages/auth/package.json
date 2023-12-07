@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "license": "ISC",
   "dependencies": {
-    "nuxt-local-auth": "^1.2.5"
+    "nuxt-local-auth": "^1.3.1"
   }
 }
